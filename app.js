@@ -18,11 +18,10 @@ app.use(cors(corsOptions));
 
 
 
-app.get( (req, res) => {
-  res.json({slackUsername: 'hope peter', backend: true, age: 24, bio:'A netizen'})
+app.get((req, res) => {
+  res.json({ slackUsername: 'hope peter', backend: true, age: 24, bio: 'A netizen' })
 });
 
 app.listen(Port, console.log('server started at port 2000')
 );
-
 
